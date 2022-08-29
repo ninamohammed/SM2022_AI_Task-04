@@ -136,5 +136,10 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 <img width="916" alt="mmmaps" src="https://user-images.githubusercontent.com/103388162/187110018-60708794-f09f-4670-b374-1a3d7b84d9d2.png">
 
+## 6.3 Save Map:
+
+When the map is created successfully, open a new terminal from Remote PC with Ctrl + Alt + T and save the map.
+
+<img width="899" alt="maps" src="https://user-images.githubusercontent.com/103388162/187110984-4380f876-e94c-452c-9568-c79f2f666f3d.png">
 
 
