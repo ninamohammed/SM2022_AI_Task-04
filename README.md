@@ -148,3 +148,6 @@ $ rosrun map_server map_saver -f ~/map
 
 <img width="282" alt="mapss" src="https://user-images.githubusercontent.com/103388162/187111246-f404db94-d5a8-4380-af2d-7d82af3fdbcd.png">
 
+## 7-Testing:
+
+![n](https://user-images.githubusercontent.com/103388162/187111554-0e323d45-6c6d-4e7d-867a-2747059ae9df.gif)
