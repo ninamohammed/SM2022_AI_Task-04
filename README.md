@@ -142,4 +142,9 @@ When the map is created successfully, open a new terminal from Remote PC with Ct
 
 <img width="899" alt="maps" src="https://user-images.githubusercontent.com/103388162/187110984-4380f876-e94c-452c-9568-c79f2f666f3d.png">
 
+```
+$ rosrun map_server map_saver -f ~/map
+```
+
+<img width="282" alt="mapss" src="https://user-images.githubusercontent.com/103388162/187111246-f404db94-d5a8-4380-af2d-7d82af3fdbcd.png">
 
