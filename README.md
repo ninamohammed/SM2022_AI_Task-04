@@ -30,6 +30,7 @@ $ sudo apt update
 ```
 $ sudo apt upgrade
 ```
+
 ```
 $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
 ```
@@ -77,5 +78,35 @@ $ sudo apt install ros-noetic-turtlebot3-msgs
 ```
 $ sudo apt install ros-noetic-turtlebot3
 ```
+
+## 5.1 Install Simulation Package:
+The __TurtleBot3 Simulation Package__ requires turtlebot3 and turtlebot3_msgs packages as prerequisite. Without these prerequisite packages, the Simulation cannot be launched.
+Please follow the PC Setup instructions if you did not install required packages and dependent packages
+```
+$ cd ~/catkin_ws/src/
+```
+```
+$ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+```
+```
+$ cd ~/catkin_ws && catkin_make
+```
+
+### 5.2 Launch Simulation World:
+
+Three simulation environments are prepared for TurtleBot3. Please select one of these environments to launch Gazebo.
+```
+__Please make sure to completely terminate other Simulation world before launching a new world.__
+```
+__TurtleBot3 World__
+```
+$ export TURTLEBOT3_MODEL=waffle
+```
+```
+$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
+```
+
+<img width="685" alt="mmap" src="https://user-images.githubusercontent.com/103388162/187109487-3dbaec8d-6775-4338-a67c-d0e44d3e0321.png">
+
 
 
