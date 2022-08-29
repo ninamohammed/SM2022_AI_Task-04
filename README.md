@@ -3,3 +3,19 @@
 
 ![map](https://user-images.githubusercontent.com/103388162/187107317-03b8c372-5f55-40d1-b650-4e52c0bd4e32.gif)
 
+### Table of Contents:-
+
+* 1- Download and Install Ubuntu on PC
+* 2- Install ROS on Remote PC
+* 3- Install Dependent ROS Packages
+* 4- Install TurtleBot3 Packages
+* 5- Gazebo Simulation
+* 6- SLAM Simulation
+* 7- Testing
+
+### 1-Download-and-Install-Ubuntu-on-PC:
+
+#### 1.1 Download the proper Ubuntu 20.04 LTS Desktop image for your PC from the links below.
+* Ubuntu 20.04 LTS Desktop image (64-bit)
+#### 1.2 Follow the instruction below to install Ubuntu on PC:
+* Install Ubuntu desktop
