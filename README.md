@@ -19,3 +19,23 @@
 * Ubuntu 20.04 LTS Desktop image (64-bit)
 #### 1.2 Follow the instruction below to install Ubuntu on PC:
 * Install Ubuntu desktop
+
+### 2-Install-ROS-on-Remote-PC:
+
+Open the terminal with Ctrl + Alt + T and enter below commands one at a time.
+In order to check the details of the easy installation script.
+```
+$ sudo apt update
+```
+```
+$ sudo apt upgrade
+```
+```
+$ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
+```
+```
+$ chmod 755 ./install_ros_noetic.sh
+```
+```
+$ bash ./install_ros_noetic.sh
+```
