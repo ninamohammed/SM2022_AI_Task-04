@@ -108,6 +108,21 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 <img width="685" alt="mmap" src="https://user-images.githubusercontent.com/103388162/187109487-3dbaec8d-6775-4338-a67c-d0e44d3e0321.png">
 
+## 6-SLAM-Simulation:
+
+### 6.1 Run SLAM Node:
+Open a new terminal from Remote PC with Ctrl + Alt + T and run the SLAM node. Gmapping SLAM method is used by default.
+Please use the proper keyword among burger , waffle , waffle_pi for the TURTLEBOT3_MODEL parameter.
+```
+$ export TURTLEBOT3_MODEL=burger
+```
+```
+$ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+```
+
+<img width="678" alt="mmmmaps" src="https://user-images.githubusercontent.com/103388162/187110539-36ff8bbd-1414-4c3e-95ad-27e8812fe56c.png">
+
+
 ### 6.2 Run Teleoperation Node:
 
 Open a new terminal from Remote PC with Ctrl + Alt + T and run the teleoperation node from the Remote PC.
