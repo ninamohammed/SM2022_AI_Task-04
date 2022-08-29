@@ -108,5 +108,18 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 <img width="685" alt="mmap" src="https://user-images.githubusercontent.com/103388162/187109487-3dbaec8d-6775-4338-a67c-d0e44d3e0321.png">
 
+### 6.2 Run Teleoperation Node:
+
+Open a new terminal from Remote PC with Ctrl + Alt + T and run the teleoperation node from the Remote PC.
+
+Please use the proper keyword among burger , waffle , waffle_pi for the TURTLEBOT3_MODEL parameter.
+```
+$ export TURTLEBOT3_MODEL=burger
+```
+```
+$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
+<img width="916" alt="mmmaps" src="https://user-images.githubusercontent.com/103388162/187110018-60708794-f09f-4670-b374-1a3d7b84d9d2.png">
+
 
 
